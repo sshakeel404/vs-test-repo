@@ -14,8 +14,11 @@ namespace GitTest
         /// <param name="args">Any informtion about the application</param>
         static void Main(string[] args)
         {
+
+            Console.WriteLine(args.Length);
             Console.WriteLine("Hello World!");
 
+            Console.ReadKey();
         }
     }
 }
