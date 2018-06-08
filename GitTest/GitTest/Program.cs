@@ -18,6 +18,7 @@ namespace GitTest
             Console.WriteLine(args.Length);
             Console.WriteLine("Hello World!");
 
+            Console.WriteLine("File updated in server");
             Console.ReadKey();
         }
     }
